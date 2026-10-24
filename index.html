@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Giyla Gizlilik Politikası</title>
+<style>
+  :root { --bg:#F7F3EC; --fg:#17161C; --muted:#6B6760; --accent:#C93F18; --line:#E3DCCF; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#121116; --fg:#F5F1EA; --muted:#A09B93; --accent:#FF7048; --line:#33313B; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 -apple-system, system-ui, "Segoe UI", sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:32px 16px 64px; }
+  h1 { font-size:28px; margin:0 0 4px; } h2 { font-size:19px; margin:32px 0 8px; padding-top:16px; border-top:1px solid var(--line); }
+  p, li { margin:8px 0; } .muted { color:var(--muted); } a { color:var(--accent); }
+  table { border-collapse:collapse; width:100%; } th, td { text-align:left; border-bottom:1px solid var(--line); padding:8px 6px; vertical-align:top; font-size:15px; }
+</style>
+</head>
+<body>
+<main>
+<h1>Giyla Gizlilik Politikası</h1>
+<p class="muted">Son güncelleme: 24 Ekim 2026 · <a href="en.html">English</a></p>
+
+<p>Giyla, kıyafetlerini düzenleyen ve hava durumuna, planlarına göre kombin öneren bir gardırop asistanıdır. Bu politika, hangi verilerin nerede tutulduğunu ve hangilerinin cihazından çıktığını açıklar.</p>
+
+<h2>Kısaca</h2>
+<ul>
+  <li>Hesap açmazsın; bize ait bir sunucu ya da bulut veritabanı yoktur.</li>
+  <li>Dolabın, fotoğrafların, planların ve ayarların <strong>yalnızca telefonundaki uygulama alanında</strong> durur.</li>
+  <li>Yalnızca sen bir yapay zekâ işlemi başlattığında ve <strong>açık izin verdiysen</strong> bazı veriler yapay zekâ servisine gönderilir.</li>
+  <li>Reklam, takip ve analiz araçları kullanmayız; verilerini satmayız ya da pazarlama için paylaşmayız.</li>
+</ul>
+
+<h2>Cihazında tutulan veriler</h2>
+<p>Parça fotoğrafları ve bilgileri (renk, tür, resmiyet, marka, fiyat…), giyim geçmişin, planların, Stil DNA’n ve beğeni tercihlerin, kişisel renk anketi cevapların ve uygulama ayarların telefonunda saklanır. Bu veriler bize ulaşmaz. Uygulamayı silersen telefondan silinir; ayrıca Ben → Gizlilik bölümünden “Tüm verilerimi sil” ile istediğin an silebilirsin.</p>
+
+<h2>Cihazdan çıkan veriler</h2>
+<table>
+  <tr><th>Kime</th><th>Ne gönderilir</th><th>Ne zaman</th></tr>
+  <tr>
+    <td><strong>NVIDIA yapay zekâ servisi</strong> (integrate.api.nvidia.com)</td>
+    <td>Analiz için seçtiğin parça, ürün, etiket ve ayna fotoğrafları; kombin önerisi için dolabındaki parçaların kısa özellik özeti (renk, tür, resmiyet…); yazdığın plan metni; içe aktardığın takvim etkinliklerinin başlıkları. Ad, e-posta ya da hesap bilgisi gönderilmez.</td>
+    <td>Yalnızca sen bir işlem başlattığında ve yapay zekâ iznini verdiysen. İzni Ben → Gizlilik bölümünden dilediğin zaman geri alabilirsin; izin yokken hiçbir şey gönderilmez ve uygulama kural tabanlı önerilerle çalışır.</td>
+  </tr>
+  <tr>
+    <td><strong>Open-Meteo</strong> (hava durumu)</td>
+    <td>Seçtiğin şehrin ya da cihaz konumunun koordinatı.</td>
+    <td>Hava durumunu gösterirken.</td>
+  </tr>
+  <tr>
+    <td><strong>Alışveriş siteleri</strong></td>
+    <td>Uygulama içi tarayıcıda yalnızca senin açtığın sayfalar yüklenir. “Bu ürünü değerlendir” dediğinde sayfadaki ürün görseli ve fiyat okunur.</td>
+    <td>Sen bir siteyi açtığında.</td>
+  </tr>
+  <tr>
+    <td><strong>Yedek dosyası</strong></td>
+    <td>Yedeği sen oluşturursun ve nereye kaydedeceğine (Dosyalar, Drive, e-posta…) sen karar verirsin. Şifrelenmez; güvendiğin bir yerde sakla.</td>
+    <td>Sen “Yedek al” dediğinde.</td>
+  </tr>
+</table>
+<p>NVIDIA’ya gönderilen veriler, NVIDIA’nın kendi gizlilik politikasına ve kullanım koşullarına tabidir; bu verilerin NVIDIA tarafında nasıl işlendiğini biz kontrol edemeyiz.</p>
+
+<h2>İzinler</h2>
+<ul>
+  <li><strong>Kamera:</strong> kıyafet ve ürün etiketi fotoğrafı çekmek için.</li>
+  <li><strong>Fotoğraflar:</strong> yalnızca seçtiğin fotoğraflara erişilir.</li>
+  <li><strong>Konum (uygulama açıkken):</strong> yaklaşık konum, hava durumu için; kaydedilmez.</li>
+  <li><strong>Takvim (okuma):</strong> etkinliklere göre kombin önermek için; yalnızca sen içe aktarmayı başlattığında.</li>
+  <li><strong>Bildirimler:</strong> akşam hatırlatmaları telefonda yerel olarak kurulur; dışarıdan bildirim gönderilmez.</li>
+</ul>
+<p>İzinlerin hepsi isteğe bağlıdır. Vermezsen ilgili özellik kapanır, uygulama çalışmaya devam eder. İzinleri telefon ayarlarından istediğin zaman geri alabilirsin.</p>
+
+<h2>Haklarının kullanımı</h2>
+<p>Verilerin yalnızca senin cihazında olduğu için erişme, düzeltme ve silme işlemlerini doğrudan uygulamadan yapabilirsin. Bize ulaşan bir verin yoksa bizden silmemizi isteyebileceğin bir kayıt da yoktur. Sorun ve talepler için aşağıdaki adrese yazabilirsin.</p>
+
+<h2>Çocuklar</h2>
+<p>Giyla çocuklara yönelik değildir ve çocuklardan bilerek veri toplamaz.</p>
+
+<h2>Değişiklikler</h2>
+<p>Bu politika güncellenirse yeni tarih bu sayfada yazılır. Verilerin kullanımı önemli ölçüde değişirse uygulama içinde ayrıca bilgilendirilirsin.</p>
+
+<h2>İletişim</h2>
+<p>Okan Kaya · <a href="mailto:okankaya.apps@gmail.com">okankaya.apps@gmail.com</a></p>
+</main>
+</body>
+</html>
